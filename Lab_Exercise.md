@@ -317,7 +317,6 @@ int main() {
     sum.feet = d1.feet + d2.feet;
     sum.inch = d1.inch + d2.inch;
 
-    // Adjust inches if greater than 12
     if (sum.inch >= 12.0) {
         sum.inch -= 12.0;
         sum.feet++;
